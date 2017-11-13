@@ -13,8 +13,11 @@ var nav = `<div class='topnav'>
 </div>`
 var body = `<div class='the_bod'>BODY BODY BODY BODY</div>`
 
-var footer = `<div class='footer'>This is q footers!!</div>`;
-
+var footer = `<div id='footer'>
+  <div class="container siteNav">
+    <span style="border-bottom:2px solid">Kyle loves you! God Bless!!!</span>
+  </div>
+</div>`;
 
 
 function app() {

@@ -31,3 +31,31 @@
   background-color: #fb58e0;
   text-align: center;
 }
+
+#footer {
+  width:100%;
+  padding:20px;
+  padding-bottom:4px;
+  background:black;
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+  position:fixed;    /*Here's what sticks it*/
+  bottom:0;          /*to the bottom of the body*/
+  left:0;            /*and to the left of the body.*/
+
+  text-align:center; /*this will center the containers*/
+}
+
+#footer * {
+  margin:0;
+  padding:0;
+}
+
+#footer .container {
+  display:inline-block; /*required for centering containers and allowing wrap*/
+  margin-bottom:16px;
+  width:20%; /*relative unit for responsive design*/
+  min-width:150px; /*containers won't get smaller than 200px*/
+  vertical-align:top;
+}
